@@ -9,5 +9,8 @@ namespace Shire.Api.Controllers
     {
         [HttpGet]
         public async Task<IActionResult> Get() => Ok("🎀");
+        [HttpGet("/kitty")]
+        public async Task<IActionResult> GetKitty() => Ok("🐈");
+
     }
 }
