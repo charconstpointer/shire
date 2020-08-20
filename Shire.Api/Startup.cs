@@ -25,6 +25,7 @@ namespace Shire.Api
                    {
                        corsBuilder
                            .WithOrigins("localhost:3000")
+                           .WithOrigins("http://localhost:3000")
                            .WithOrigins("https://www.polskieradio.pl")
                            .WithOrigins("http://www.polskieradio.pl")
                            .WithOrigins("https://polskieradio.pl")
